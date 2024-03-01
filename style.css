@@ -1,0 +1,26 @@
+ul li a{
+	text-decoration: none !important;
+	color:white !important;
+}
+a{
+	text-decoration: none !important;
+}
+body{
+	background-color:#091821 !important;
+}
+li{
+	list-style-type: none;
+}
+ul li a:hover{
+    color:#049de3 !important;
+}
+ol li{
+	color:white;
+}
+#services_box{
+      border-radius: 5px;
+    }
+#services_box:hover{
+         box-shadow: 2px 2px 2px lightgray;
+         cursor: pointer;
+    }
