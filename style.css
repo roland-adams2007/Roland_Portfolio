@@ -1,3 +1,11 @@
+
+
+
+#rol_logo{
+	font-weight:bolder;
+	font-size:30px;
+}
+
 ul li a{
 	text-decoration: none !important;
 	color:white !important;
@@ -12,7 +20,7 @@ li{
 	list-style-type: none;
 }
 ul li a:hover{
-    color:#049de3 !important;
+    color:#061824 !important;
 }
 ol li{
 	color:white;
@@ -21,6 +29,13 @@ ol li{
       border-radius: 5px;
     }
 #services_box:hover{
-         box-shadow: 2px 2px 2px lightgray;
+         box-shadow: 3px 3px 10px lightgray;
          cursor: pointer;
     }
+#comment_box{
+	border-radius: 5px;
+}
+#comment_box:hover{
+	 box-shadow: 3px 3px 10px lightgray;
+         cursor: pointer;
+}
