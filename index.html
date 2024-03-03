@@ -14,6 +14,7 @@
 	<link rel="stylesheet" href="FA/css/all.css">
 	<link rel="icon" href="images/icon-up.png">
 	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+
 	<!--title-->
 
 	<title>Roland Protfolio | Homepage</title>
@@ -114,7 +115,9 @@ Speed matters! I optimize my code, minimize HTTP requests, and leverage browser 
           		</ol>
           		<p class="text-light">I’m always open to collaboration, freelance opportunities, or just a friendly chat. Feel free to connect with me on LinkedIn or drop me an email at <a href="#" class="text-success">adamsrolly7@gmail.com</a></p>
           		<p class="text-primary">Let’s create something amazing together! 🚀</p>
-              <p align="center"><button class="btn btn-outline-light"> Download CV</button></p>
+              <p align="center"><button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#cv-modal">
+               Download CV
+              </button></p>
           	</div>
        </div>
 
@@ -419,6 +422,34 @@ Speed matters! I optimize my code, minimize HTTP requests, and leverage browser 
 
 
 
+
+
+
+
+
+<!-- CV Modal -->
+<div class="modal fade" id="cv-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Invalid Request!</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+          <div class="alert alert-danger">
+            <p>This part of the website is not loaded yet. Please try again later. Thank you</p>
+            <div class="spinner-border" style="width: 3rem; height: 3rem;" role="status">
+            <span class="visually-hidden">Loading...</span>
+            </div>
+          </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+       
+      </div>
+    </div>
+  </div>
+</div>
 
 
 
