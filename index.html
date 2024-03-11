@@ -5,8 +5,11 @@
 	<!--meta links-->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="keyword" content="">
-	<meta name="description" content="">
+	<meta name="keyword" content="portfolio,web developer">
+	<meta name="description" content="My name is Adams Roland,I am a 
+  web developer. I created this portfolioto showcase my
+  skill and my passion for Web Development
+  ">
     <meta name="author" content="">
 
     <!--link links-->
@@ -14,6 +17,7 @@
 	<link rel="stylesheet" href="FA/css/all.css">
 	<link rel="icon" href="images/icon-up.png">
 	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
 	<!--title-->
 
@@ -59,6 +63,13 @@
 
         <li class="nav-item">
           <a class="nav-link"  href="#contact_me">Contact</a>
+        </li>
+
+        <li class="nav-item">
+          <a  class="nav-link" data-bs-toggle="modal" data-bs-target="#newModal">
+            Announcement
+          </a>
+          
         </li>
       </ul>
       
@@ -173,7 +184,7 @@ Speed matters! I optimize my code, minimize HTTP requests, and leverage browser 
 
         </div>
 
-        <div class="row mb-5" style="justify-content: space-around;text-align:center; align-items: center;" >
+        <div class="row mb-5" style="justify-content: space-around;text-align:center; align-items: center;align-items: baseline !important;" >
             <div class="col-md-12">
               <div class="col-md-12"><h1 style="color:beige;text-align:center;border-bottom:2px solid #049de3;width:80%;margin:auto;padding-bottom:10px;" id="project">Project</h1>
               </div>
@@ -181,19 +192,23 @@ Speed matters! I optimize my code, minimize HTTP requests, and leverage browser 
 
             <div class="col-md-12 text-light"><h3 align="center">Here are some of my lastest Projects:</h3></div>
 
-            <div class="col-md-3">
+            <div class="col-md-2">
               <img src="images/project_1.jpeg" class="img-fluid">
               <p class="text-light">Here is a sample of compelete e-commerce website i made named Stellar.</p>
             </div>
 
-            <div class="col-md-3">
+            <div class="col-md-2">
               <img src="images/project_2.jpeg" class="img-fluid">
               <p class="text-light">Here is another website i made named Teens Hub.</p>
             </div>
 
-            <div class="col-md-3">
+            <div class="col-md-2">
               <img src="images/project_3.jpeg" class="img-fluid">
               <p class="text-light">Here is website a made for an academy named CodeMaster.</p>
+            </div>
+            <div class="col-md-2">
+                 <img src="images/project_4.jpeg" class="img-fluid">
+                 <p class="text-light">A charity website called LoveCare</p>
             </div>
 
            
@@ -242,7 +257,7 @@ Speed matters! I optimize my code, minimize HTTP requests, and leverage browser 
              <h2 class="text-light">Contact Me:</h2>
              <p class="text-primary">TEl:<a href="#">+(234)7043507082 | +(234)9049962307</a></p>
               <p class="text-primary">EMAIL:<a href="#">adamsrolly7@gmail.com</a></p>
-               <p class="text-primary">ADDRESS:<a href="#"> 5, Ogunsiji Close, By Adeboye Solanke Avenue, Off Allen Avenue, Ikeja (101233), Lagos, Nigeria</a></p>
+               <p class="text-primary">ADDRESS:<a href="#">3,Oluwasanmi clos,Mafoluku,Oshodi(100261), Lagos, Nigeria</a></p>
          </div>
 
          <!--<div class="col-md-3 d-none d-md-block">
@@ -281,7 +296,7 @@ Speed matters! I optimize my code, minimize HTTP requests, and leverage browser 
         <div class="row fixed-bottom">
           <div class="col alert alert-danger alert-dissmible" role="alert">
             <h2 class="text-primary">Privacy Policy</h2>
-            <p class="text-primary">Last Updated:2/03/2024</p>
+            <p class="text-primary">Last Updated:11/03/2024</p>
             <p class="text-primary">Welcome to Roland Adams's portfolio website! This privacy policy explains how we collect, use, and protect your personal information when you visit our site. By using our website, you agree to the terms outlined in this policy.
             </p>
             <p class="text-primary">We collect the following types of information:
@@ -458,6 +473,35 @@ Speed matters! I optimize my code, minimize HTTP requests, and leverage browser 
 </div>
 
 
+
+
+<!-- New Modal -->
+<div class="modal fade" id="newModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Announcement</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+
+        <ul>
+          <li style="list-style-type: disc !important;">The Feature of 'Light and Dark Mode' will be coming soon to the website.</li>
+          <li style="list-style-type: disc !important;">The website will also be in it newest version very soon. </li>
+        </ul>
+        <p>Follow me on:</p>
+        <a href="https://github.com/roland-adams2007"><i class='bx bxl-github  bx-tada bx-md'></i></a>
+        <a href="#"><i class='bx bxl-facebook-circle  bx-tada bx-md' ></i></a>
+        <a href="#"><i class='bx bxl-instagram-alt  bx-tada bx-md'></i></a>
+        <a href="#"><i class='bx bxl-twitter  bx-tada bx-md'></i></a>
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 
